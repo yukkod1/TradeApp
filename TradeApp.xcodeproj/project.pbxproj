@@ -7,23 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA87C2872A88E40C00999978 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA87C2862A88E40C00999978 /* TabBarController.swift */; };
+		DA87C2892A88E77B00999978 /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA87C2882A88E77B00999978 /* ActivityViewController.swift */; };
+		DA889A0F2A94BCCD001C3739 /* TopTradeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA889A0E2A94BCCC001C3739 /* TopTradeView.swift */; };
+		DA966B7B2A74092C00EA3DCA /* SFPRODISPLAYMEDIUM.OTF in Resources */ = {isa = PBXBuildFile; fileRef = DA966B7A2A74092C00EA3DCA /* SFPRODISPLAYMEDIUM.OTF */; };
+		DA966B7D2A74093900EA3DCA /* SFPRODISPLAYREGULAR.OTF in Resources */ = {isa = PBXBuildFile; fileRef = DA966B7C2A74093900EA3DCA /* SFPRODISPLAYREGULAR.OTF */; };
+		DA966B7F2A74094200EA3DCA /* SFPRODISPLAYBOLD.OTF in Resources */ = {isa = PBXBuildFile; fileRef = DA966B7E2A74094200EA3DCA /* SFPRODISPLAYBOLD.OTF */; };
+		DA966B822A74096A00EA3DCA /* Inter-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = DA966B812A74096A00EA3DCA /* Inter-Medium.otf */; };
+		DA966B842A7409D000EA3DCA /* Inter-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DA966B832A7409D000EA3DCA /* Inter-SemiBold.otf */; };
+		DA9A3DAA2A88EFAB00BEDAE1 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9A3DA92A88EFAB00BEDAE1 /* Model.swift */; };
+		DA9A3DAC2A88F1A800BEDAE1 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9A3DAB2A88F1A800BEDAE1 /* TableViewCell.swift */; };
 		DAA105A32A72DEF500412E18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA105A22A72DEF500412E18 /* AppDelegate.swift */; };
 		DAA105A52A72DEF500412E18 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA105A42A72DEF500412E18 /* SceneDelegate.swift */; };
-		DAA105A72A72DEF500412E18 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA105A62A72DEF500412E18 /* ViewController.swift */; };
-		DAA105AA2A72DEF500412E18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAA105A82A72DEF500412E18 /* Main.storyboard */; };
 		DAA105AC2A72DEF600412E18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAA105AB2A72DEF600412E18 /* Assets.xcassets */; };
 		DAA105AF2A72DEF600412E18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAA105AD2A72DEF600412E18 /* LaunchScreen.storyboard */; };
+		DAA105B82A72E12C00412E18 /* TradeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA105B72A72E12C00412E18 /* TradeViewController.swift */; };
+		DAA105BA2A72E6C700412E18 /* UICollorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA105B92A72E6C700412E18 /* UICollorExtension.swift */; };
+		DAA39C592ABC9F3D00E47574 /* PairCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA39C582ABC9F3C00E47574 /* PairCollectionViewCell.swift */; };
+		DAA39C5D2ABCA2E300E47574 /* ChoosePairViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA39C5C2ABCA2E300E47574 /* ChoosePairViewController.swift */; };
+		DAA7A5602ABF760A00B2DC5F /* PairModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA7A55F2ABF760A00B2DC5F /* PairModel.swift */; };
+		DAED28892AA4DB530093200B /* TradeMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAED28882AA4DB530093200B /* TradeMainView.swift */; };
+		DAED288B2AA4DC4F0093200B /* Utills.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAED288A2AA4DC4F0093200B /* Utills.swift */; };
+		FDA8F824F6E4BFF739A6F3B2 /* Pods_TradeApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5406803B1D10F10626FBC181 /* Pods_TradeApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2982E6C11F73D269160810BD /* Pods-TradeApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TradeApp.debug.xcconfig"; path = "Target Support Files/Pods-TradeApp/Pods-TradeApp.debug.xcconfig"; sourceTree = "<group>"; };
+		5406803B1D10F10626FBC181 /* Pods_TradeApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TradeApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		983E818F510AD893A2A5C274 /* Pods-TradeApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TradeApp.release.xcconfig"; path = "Target Support Files/Pods-TradeApp/Pods-TradeApp.release.xcconfig"; sourceTree = "<group>"; };
+		DA87C2862A88E40C00999978 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		DA87C2882A88E77B00999978 /* ActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
+		DA889A0E2A94BCCC001C3739 /* TopTradeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopTradeView.swift; sourceTree = "<group>"; };
+		DA966B7A2A74092C00EA3DCA /* SFPRODISPLAYMEDIUM.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPRODISPLAYMEDIUM.OTF; sourceTree = "<group>"; };
+		DA966B7C2A74093900EA3DCA /* SFPRODISPLAYREGULAR.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPRODISPLAYREGULAR.OTF; sourceTree = "<group>"; };
+		DA966B7E2A74094200EA3DCA /* SFPRODISPLAYBOLD.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPRODISPLAYBOLD.OTF; sourceTree = "<group>"; };
+		DA966B812A74096A00EA3DCA /* Inter-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Medium.otf"; sourceTree = "<group>"; };
+		DA966B832A7409D000EA3DCA /* Inter-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.otf"; sourceTree = "<group>"; };
+		DA9A3DA92A88EFAB00BEDAE1 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		DA9A3DAB2A88F1A800BEDAE1 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		DAA1059F2A72DEF500412E18 /* TradeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TradeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAA105A22A72DEF500412E18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAA105A42A72DEF500412E18 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DAA105A62A72DEF500412E18 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DAA105A92A72DEF500412E18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DAA105AB2A72DEF600412E18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAA105AB2A72DEF600412E18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = /Users/artemcherkasov/Developer/TradeApp/TradeApp/Assets.xcassets; sourceTree = "<absolute>"; };
 		DAA105AE2A72DEF600412E18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		DAA105B02A72DEF600412E18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAA105B72A72E12C00412E18 /* TradeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeViewController.swift; sourceTree = "<group>"; };
+		DAA105B92A72E6C700412E18 /* UICollorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollorExtension.swift; sourceTree = "<group>"; };
+		DAA39C582ABC9F3C00E47574 /* PairCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairCollectionViewCell.swift; sourceTree = "<group>"; };
+		DAA39C5C2ABCA2E300E47574 /* ChoosePairViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoosePairViewController.swift; sourceTree = "<group>"; };
+		DAA7A55F2ABF760A00B2DC5F /* PairModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairModel.swift; sourceTree = "<group>"; };
+		DAED28882AA4DB530093200B /* TradeMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeMainView.swift; sourceTree = "<group>"; };
+		DAED288A2AA4DC4F0093200B /* Utills.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utills.swift; sourceTree = "<group>"; };
+		DAED28902AA4DFF80093200B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +65,83 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDA8F824F6E4BFF739A6F3B2 /* Pods_TradeApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6BB6110E2349118A97A07600 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5406803B1D10F10626FBC181 /* Pods_TradeApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA966B782A74088600EA3DCA /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DA966B852A7409DE00EA3DCA /* SfProText */,
+				DA966B802A74095B00EA3DCA /* Inter */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		DA966B792A74089300EA3DCA /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				DAA105B72A72E12C00412E18 /* TradeViewController.swift */,
+				DA87C2882A88E77B00999978 /* ActivityViewController.swift */,
+				DAA39C5C2ABCA2E300E47574 /* ChoosePairViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		DA966B802A74095B00EA3DCA /* Inter */ = {
+			isa = PBXGroup;
+			children = (
+				DA966B832A7409D000EA3DCA /* Inter-SemiBold.otf */,
+				DA966B812A74096A00EA3DCA /* Inter-Medium.otf */,
+			);
+			path = Inter;
+			sourceTree = "<group>";
+		};
+		DA966B852A7409DE00EA3DCA /* SfProText */ = {
+			isa = PBXGroup;
+			children = (
+				DA966B7E2A74094200EA3DCA /* SFPRODISPLAYBOLD.OTF */,
+				DA966B7C2A74093900EA3DCA /* SFPRODISPLAYREGULAR.OTF */,
+				DA966B7A2A74092C00EA3DCA /* SFPRODISPLAYMEDIUM.OTF */,
+			);
+			path = SfProText;
+			sourceTree = "<group>";
+		};
+		DA9A3DA72A88EF3100BEDAE1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DA9A3DA92A88EFAB00BEDAE1 /* Model.swift */,
+				DAA7A55F2ABF760A00B2DC5F /* PairModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		DAA105962A72DEF500412E18 = {
 			isa = PBXGroup;
 			children = (
-				DAA105A12A72DEF500412E18 /* TradeApp */,
+				DAED28902AA4DFF80093200B /* Info.plist */,
+				DAED28872AA4DA8B0093200B /* TabBarControllers */,
+				DAED28862AA4DA5F0093200B /* Utills */,
+				DAED28852AA4DA190093200B /* SupportingFiles */,
+				DAED28832AA4D9EE0093200B /* Cells */,
+				DAED28822AA4D9CB0093200B /* Views */,
+				DA9A3DA72A88EF3100BEDAE1 /* Models */,
+				DA966B792A74089300EA3DCA /* ViewControllers */,
+				DA966B782A74088600EA3DCA /* Fonts */,
 				DAA105A02A72DEF500412E18 /* Products */,
+				DBC4B697ED3D48DF50A1540A /* Pods */,
+				6BB6110E2349118A97A07600 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,18 +153,59 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DAA105A12A72DEF500412E18 /* TradeApp */ = {
+		DAED28822AA4D9CB0093200B /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				DAA105A22A72DEF500412E18 /* AppDelegate.swift */,
-				DAA105A42A72DEF500412E18 /* SceneDelegate.swift */,
-				DAA105A62A72DEF500412E18 /* ViewController.swift */,
-				DAA105A82A72DEF500412E18 /* Main.storyboard */,
+				DA889A0E2A94BCCC001C3739 /* TopTradeView.swift */,
+				DAED28882AA4DB530093200B /* TradeMainView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DAED28832AA4D9EE0093200B /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				DA9A3DAB2A88F1A800BEDAE1 /* TableViewCell.swift */,
+				DAA39C582ABC9F3C00E47574 /* PairCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		DAED28852AA4DA190093200B /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
 				DAA105AB2A72DEF600412E18 /* Assets.xcassets */,
 				DAA105AD2A72DEF600412E18 /* LaunchScreen.storyboard */,
-				DAA105B02A72DEF600412E18 /* Info.plist */,
+				DAA105A22A72DEF500412E18 /* AppDelegate.swift */,
+				DAA105A42A72DEF500412E18 /* SceneDelegate.swift */,
 			);
-			path = TradeApp;
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		DAED28862AA4DA5F0093200B /* Utills */ = {
+			isa = PBXGroup;
+			children = (
+				DAA105B92A72E6C700412E18 /* UICollorExtension.swift */,
+				DAED288A2AA4DC4F0093200B /* Utills.swift */,
+			);
+			path = Utills;
+			sourceTree = "<group>";
+		};
+		DAED28872AA4DA8B0093200B /* TabBarControllers */ = {
+			isa = PBXGroup;
+			children = (
+				DA87C2862A88E40C00999978 /* TabBarController.swift */,
+			);
+			path = TabBarControllers;
+			sourceTree = "<group>";
+		};
+		DBC4B697ED3D48DF50A1540A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2982E6C11F73D269160810BD /* Pods-TradeApp.debug.xcconfig */,
+				983E818F510AD893A2A5C274 /* Pods-TradeApp.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +215,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DAA105B32A72DEF600412E18 /* Build configuration list for PBXNativeTarget "TradeApp" */;
 			buildPhases = (
+				B68C72F6E02F51C51B7A06B3 /* [CP] Check Pods Manifest.lock */,
 				DAA1059B2A72DEF500412E18 /* Sources */,
 				DAA1059C2A72DEF500412E18 /* Frameworks */,
 				DAA1059D2A72DEF500412E18 /* Resources */,
+				2097676980EFBB7AEA3E4FB2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,36 +268,85 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA966B7D2A74093900EA3DCA /* SFPRODISPLAYREGULAR.OTF in Resources */,
+				DA966B842A7409D000EA3DCA /* Inter-SemiBold.otf in Resources */,
+				DA966B822A74096A00EA3DCA /* Inter-Medium.otf in Resources */,
+				DA966B7B2A74092C00EA3DCA /* SFPRODISPLAYMEDIUM.OTF in Resources */,
 				DAA105AF2A72DEF600412E18 /* LaunchScreen.storyboard in Resources */,
+				DA966B7F2A74094200EA3DCA /* SFPRODISPLAYBOLD.OTF in Resources */,
 				DAA105AC2A72DEF600412E18 /* Assets.xcassets in Resources */,
-				DAA105AA2A72DEF500412E18 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2097676980EFBB7AEA3E4FB2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TradeApp/Pods-TradeApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TradeApp/Pods-TradeApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TradeApp/Pods-TradeApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B68C72F6E02F51C51B7A06B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TradeApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DAA1059B2A72DEF500412E18 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAA105A72A72DEF500412E18 /* ViewController.swift in Sources */,
+				DAED28892AA4DB530093200B /* TradeMainView.swift in Sources */,
+				DA9A3DAA2A88EFAB00BEDAE1 /* Model.swift in Sources */,
+				DA9A3DAC2A88F1A800BEDAE1 /* TableViewCell.swift in Sources */,
+				DAA105BA2A72E6C700412E18 /* UICollorExtension.swift in Sources */,
+				DA87C2892A88E77B00999978 /* ActivityViewController.swift in Sources */,
+				DAA105B82A72E12C00412E18 /* TradeViewController.swift in Sources */,
+				DAA39C5D2ABCA2E300E47574 /* ChoosePairViewController.swift in Sources */,
+				DAED288B2AA4DC4F0093200B /* Utills.swift in Sources */,
 				DAA105A32A72DEF500412E18 /* AppDelegate.swift in Sources */,
+				DA87C2872A88E40C00999978 /* TabBarController.swift in Sources */,
+				DA889A0F2A94BCCD001C3739 /* TopTradeView.swift in Sources */,
+				DAA39C592ABC9F3D00E47574 /* PairCollectionViewCell.swift in Sources */,
 				DAA105A52A72DEF500412E18 /* SceneDelegate.swift in Sources */,
+				DAA7A5602ABF760A00B2DC5F /* PairModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DAA105A82A72DEF500412E18 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DAA105A92A72DEF500412E18 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DAA105AD2A72DEF600412E18 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +474,7 @@
 		};
 		DAA105B42A72DEF600412E18 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2982E6C11F73D269160810BD /* Pods-TradeApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -289,10 +482,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 24LUMG2VDP;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TradeApp/Info.plist;
+				INFOPLIST_FILE = Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -310,6 +503,7 @@
 		};
 		DAA105B52A72DEF600412E18 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 983E818F510AD893A2A5C274 /* Pods-TradeApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -317,10 +511,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 24LUMG2VDP;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TradeApp/Info.plist;
+				INFOPLIST_FILE = Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
